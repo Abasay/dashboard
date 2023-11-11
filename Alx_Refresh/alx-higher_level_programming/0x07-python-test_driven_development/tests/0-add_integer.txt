@@ -1,0 +1,37 @@
+#Testing for the function
+
+'''
+#Testing the import module
+>>> add_integer = __import__('0-add_integer').add_integer
+'''
+
+#Testing the function
+'''
+>>> print(add_integer(1, 2))
+3
+>>> print(add_integer(4))
+102
+>>> print(add_integer(100, -2))
+98
+>>> print(add_integer(2))
+100
+#Testing the float option
+>>> print(add_integer(100.3, -2))
+98
+>>> print(add_integer(56.9, 10))
+66
+'''
+
+#Testing the Exceptions
+'''
+>>> try:
+    print(add_integer(4, "school"))
+except Exceptions as es:
+    print(es)
+
+>>> try:
+    print(add_integer(None))
+except Exceptions as es:
+    print(es)
+'''
+
